@@ -1,0 +1,89 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.cnt{
+    background-color: #edfed3;
+}
+.blog{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow:
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.blog_head{
+    color: #8aaa59;
+}
+.date{
+    font-weight: bold;
+    color: #8aaa59;
+}
+.blogtxt{
+    position: relative;
+    /* right: -50px; */
+}
+
+
+.project{
+    background-color: #ffffff;
+    margin: 50px;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(10, 153, 41, 0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(3, 122, 73, 0.3);
+}
+.zoom:hover {
+    transition: transform .3s;
+    transform: scale(1.2);
+    
+}
+.a:hover{
+    text-decoration: none;
+}
+.project_title{
+    text-align: center;
+    font-weight: bold;
+
+    color: black;
+}
+.project_desc{
+    color: gray;
+}
+.project_head{
+    margin-bottom: 40px;
+    color: #2d4902;
+}
+.project_showAll{
+    background-color: #95ab74;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+.footer{
+    background-color:  #014242;
+    border-radius: 40px 40px 0 0;
+}
+
+#social-fb:hover {
+    color: #3B5998;
+}
+#social-tw:hover {
+    color: #4099FF;
+}
+#social-gp:hover {
+    color: #d34836;
+}
+.social_btn{
+    padding: 3px;
+}

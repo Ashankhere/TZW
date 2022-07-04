@@ -1,0 +1,20 @@
+.AboutUsHead{
+    font-size: 50px;
+    color: white;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #014242;
+}
+
+.abt{
+    position: relative;
+    float: left;
+    color: #538B6A;
+    padding: 20px;
+    max-width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 0 20px;
+    background-color: #FFFFFF;
+    box-shadow: 8px 8px 8px #808180;
+}
